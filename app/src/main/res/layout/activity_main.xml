@@ -9,8 +9,6 @@
 
     <EditText
         android:id="@+id/editText"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -21,7 +19,9 @@
         android:inputType="numberDecimal"
         android:padding="10dp"
         android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
@@ -31,10 +31,9 @@
         android:layout_margin="8dp"
         android:text="Submit"
         android:textAllCaps="false"/>
+
     <EditText
         android:id="@+id/output"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/submit"
@@ -43,9 +42,11 @@
         android:layout_marginRight="8dp"
         android:background="@drawable/edite_text_border"
         android:hint="Hasil akan muncul disini..."
+        android:padding="10dp"
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:padding="10dp"/>
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
     <Button
         android:id="@+id/reset"
         android:layout_width="wrap_content"

@@ -15,7 +15,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/edite_text_border"
-        android:hint="masukan angka desimal..."
+        android:hint="@string/field_input"
         android:inputType="numberDecimal"
         android:padding="10dp"
         android:textAlignment="center"
@@ -29,7 +29,7 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_margin="8dp"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textAllCaps="false"/>
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/edite_text_border"
-        android:hint="Hasil akan muncul disini..."
+        android:hint="@string/field_output"
         android:padding="10dp"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -54,7 +54,7 @@
         android:layout_below="@+id/output"
         android:layout_centerHorizontal="true"
         android:layout_margin="8dp"
-        android:text="reset"
+        android:text="@string/reset"
         android:textAllCaps="false"/>
     
     <TextView
@@ -64,9 +64,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/reset"
         android:padding="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
-        android:text="⚫ Click on Submit Button after entering a Decimal Number"
+        android:text="@string/guide_1"
         android:textSize="15sp"/>
 
     <TextView
@@ -76,9 +76,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:padding="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:text="⚫ Click on Reset Button to reset"
+        android:text="@string/guide_2"
         android:textSize="15sp"/>
 
 </RelativeLayout>
